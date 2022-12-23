@@ -83,7 +83,7 @@ jupyter lab &	# 실행
 
 ###
 브라우저 주소 - ip:6304
-http://127.0.0.1:6304/lab?token=a6db5dae1cd4c823f804d78152f58309af83d26f9d7dae84
+http://127.0.0.1:6304/lab?token=bfadfb0fbab00833ac677494e75ee301b950ce555300f857
 ###
 
 ps aux		# 실행중인 주피터 확인 ( COMMAND  /opt/miniconda3 )
