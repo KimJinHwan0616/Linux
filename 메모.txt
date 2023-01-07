@@ -1,0 +1,44 @@
+프롬포트(prompt)
+
+사용자_계정@컴퓨터_이름 : 현재_디렉토리 사용자_권한
+
+현재 디렉토리
+~: /home/사용자_계정
+
+사용자 권한
+$(스트링): 일반
+#(해시): 루트
+
+###########
+
+<시스템>
+logout: 로그아웃
+shutdown: 종료
+    sudo shutdown [옵션] [시간]
+    - 옵션: -h(전원), -c(취소)
+    - 시간: now, 15(몇 분 후), 03:30, ...
+
+reboot: 재시작
+    sudo reboot
+
+<환경변수>
+printenv: 목록
+    SHELL, PWD, LOGNAME, HOME, LANG, PATH, ...
+export: 등록
+    export VAR=1
+unset: 삭제
+    unset VAR
+
+<사용자>
+who: 계정
+w: 정보
+    시간, 경과 시간, 사용자 수, 시스템 평균 부하율
+sudo: 시스템 관리 권한 획득
+
+useradd, userdel: 계정 생성, 삭제
+passwd: 비밀번호 변경
+usermod: 계정 수정
+
+groups: 그룹 조회
+groupadd, groupdel: 그룹 생성, 삭제
+gpasswd: 그룹 수정
